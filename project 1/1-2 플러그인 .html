@@ -1,0 +1,27 @@
+<head>
+    <meta charset="UTF-8">
+    <title>이미지 슬라이더 1-2 </title>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.slider').imageSlider({
+                width: 460,
+                height: 300
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="slider">
+        <dic class="images">
+            <img class="image" src="https://via.placeholder.com/460x300?text=image_0" />
+            <img class="image" src="https://via.placeholder.com/460x300?text=image_1" />
+            <img class="image" src="https://via.placeholder.com/460x300?text=image_2" />
+            <img class="image" src="https://via.placeholder.com/460x300?text=image_3" />
+            <div class ="image">
+                <h1>이미지가 아닌 것</h1>
+                <p>한양여자대학교 빅데이터과 2302545 김혜원</p>
+            </div>
+        </dic>
+    </div>
+</body>
